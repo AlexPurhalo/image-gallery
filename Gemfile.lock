@@ -30,6 +30,7 @@ GEM
     mime-types-data (3.2016.0521)
     mimemagic (0.3.2)
     minitest (5.10.1)
+    pg (0.18.1)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -67,6 +68,7 @@ DEPENDENCIES
   carrierwave
   carrierwave-sequel
   haml
+  pg
   pry-byebug
   puma
   racksh

@@ -2,7 +2,7 @@ require 'sequel'
 
 ENV['RACK_ENV'] ||= 'development' # RACK_ENV=production ruby lib/migrate.rb
 
-DB = Sequel.connect "sqlite://db/#{ENV['RACK_ENV']}.sqlite3"
+DB = Sequel.connect(ENV['DATABASE_URL'] || 'sqlite://db/database.db')
 
 DB.create_table :images do
   primary_key :id
