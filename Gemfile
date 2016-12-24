@@ -10,5 +10,5 @@ gem 'sqlite3'
 gem 'pry-byebug'
 gem 'time_ago_in_words'
 gem 'rmagick'
-
+gem 'racksh'
 

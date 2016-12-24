@@ -41,6 +41,11 @@ GEM
     rack (1.6.5)
     rack-protection (1.5.3)
       rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    racksh (1.0.0)
+      rack (>= 1.0)
+      rack-test (>= 0.5)
     rmagick (2.16.0)
     sequel (4.41.0)
     sinatra (1.4.7)
@@ -64,6 +69,7 @@ DEPENDENCIES
   haml
   pry-byebug
   puma
+  racksh
   rmagick
   sequel
   sinatra
